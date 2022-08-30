@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="X-UA-Compatible" content="ie=edge">
+    <title>Acesso ao Poder Judiciário pelo surdo no Brasil</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Acesso ao Poder Judiciário pelo surdo no Brasil</h1>
+    <p id="description">Pesquisa com o objetivo de identificar as barreiras enfrentadas pelo surdo no âmbito jurisdicional.</p>
+    <form id="survey-form">
+      
+      <label id="name-label">Nome</label>
+      <input type="text" for="name" placeholder="Insira seu nome" required>
+      
+      <label id="email-label">E-mail</label>
+      <input type="email" for="email" placeholder="Insira seu e-mail" required>
+
+      <label id="number-label">Idade</label>
+      <input type="number" for="number" placeholder="Insira sua idade" min="18" max="120">
+
+      <label id="gender-label">Gênero</label>
+      <input type="radio" name="gender" value="cisMan">Homem cis
+      <input type="radio" name="gender" value="cisWoman">Mulher cis<br>
+      <input type="radio" name="gender" value="transMan">Homem trans
+      <input type="radio" name="gender" value="transWoman">Mulher trans<br>
+      <input type="radio" name="gender" value="nonBinary">Não-binário
+
+      <label id="state-label">Estado</label>
+      <select for="state-label" id="dropdown" name="state" required>
+        <option value="">Selecione seu estado</option>
+        <option value="AC">AC</option>
+        <option value="AL">AL</option>
+        <option value="AP">AP</option>
+        <option value="AM">AM</option>
+        <option value="BA">BA</option>
+        <option value="CE">CE</option>
+        <option value="DF">DF</option>
+        <option value="ES">ES</option>
+        <option value="GO">GO</option>
+        <option value="MA">MA</option>
+        <option value="MG">MG</option>
+        <option value="MS">MS</option>
+        <option value="MT">MT</option>
+        <option value="PA">PA</option>
+        <option value="PB">PB</option>
+        <option value="PE">PE</option>
+        <option value="PI">PI</option>
+        <option value="PR">PR</option>
+        <option value="RJ">RJ</option>
+        <option value="RN">RN</option>
+        <option value="RO">RO</option>
+        <option value="RS">RS</option>
+        <option value="RR">RR</option>
+        <option value="SC">SC</option>
+        <option value="SE">SE</option>
+        <option value="SP">SP</option>
+        <option value="TO">TO</option>
+      </select>
+
+      <label id="troubleCategory-label">Selecione o tipo de dificuldade enfrentada:</label>
+      <input type="checkbox" for="troubleCategory-label" name="troubleCategory" value="prejudice">Capacitismo (preconceito)<br>
+      <input type="checkbox" for="troubleCategory-label" name="troubleCategory" value="miscommunication">Barreira comunicacional<br>
+      <input type="checkbox" for="troubleCategory-label" name="troubleCategory" value="other">Outro
+
+      <label id="troubleDescription-label">Descreva a experiência:</label>
+      <textarea for="troubleDescription-label" rows="4" cols="30"></textarea>
+
+      <input type="submit" id="submit" value="Enviar">
+
+    </form>
+  </body>
+</html>

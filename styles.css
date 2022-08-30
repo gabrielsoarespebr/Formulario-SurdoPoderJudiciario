@@ -1,0 +1,56 @@
+body{
+    font-family: Tahoma;
+    background-image: url(https://images.unsplash.com/photo-1505547828843-176834e42154?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  h1{
+    text-shadow: 4px 6px 8px #000000;
+  }
+  
+  #description{
+    text-shadow: 2px 4px 6px #000000;
+  }
+  
+  form{
+    width: 60%;
+    min-width: 300px;
+    max-width: 600px;
+    background-color: rgba(0,0,0,0.6);
+    padding: 10px 20px;
+    margin: auto;
+    text-align: left;
+    margin-top: 50px;
+  }
+  
+  label{
+    display: block;
+    margin: 20px auto;
+  }
+  
+  input, textarea, select{
+    width: 100%;
+  }
+  
+  input, select{
+    height: 2rem;
+  }
+  
+  input[type="radio"], input[type="checkbox"]{
+    height: 1rem;
+    vertical-align: middle;
+    width: 1rem;
+  }
+  
+  input[type="submit"]{
+    display: block;
+    margin: 30px auto;
+    width: 60%;
+  }
+  
+  #troubleDescription-label, #gender-label, #troubleCategory-label, #state-label{
+    margin-top: 60px;
+  }
